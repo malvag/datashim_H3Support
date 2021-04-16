@@ -299,7 +299,7 @@ rules:
     verbs: ["get", "list", "watch"]
   - apiGroups: ["storage.k8s.io"]
     resources: ["volumeattachments"]
-    verbs: ["get", "list", "watch", "update"]
+    verbs: ["get", "list", "watch", "update", "patch"]
 ---
 # Source: dlf-chart/charts/csi-h3-chart/templates/csi-controller-rbac.yaml
 kind: ClusterRole
